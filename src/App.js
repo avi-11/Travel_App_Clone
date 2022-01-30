@@ -8,6 +8,11 @@ import img1 from "./img1.png";
 import card from "./card.png";
 import dest1 from "./dest1.png";
 import cardDecore from "./cardDecore.png";
+import steps1 from "./steps1.png";
+import stepsBig from "./stepsBig.png";
+import subsDecor1 from "./subsDecor1.png";
+import subsDecor2 from "./subsDecor2.png";
+import subsDecor3 from "./subsDecor3.png";
 
 function App() {
   return (
@@ -143,11 +148,69 @@ function App() {
                   <i class="fas fa-location-arrow location"></i>
                   <p>12 days trip</p>
                 </div>
+                <img className="cardDecore" src={cardDecore} alt="d" />
               </div>
             </div>
-            <img className="cardDecore" src={cardDecore} alt="d" />
           </div>
         </div>
+      </section>
+      <section className="steps">
+        <div className="stepsText">
+          <p>Easy and Fast</p>
+          <p>Book Your Next Trip In 3 Easy Steps</p>
+          <div className="stepsTextBar">
+            <div className="stepsTextImage">
+              <img className="Simage" src={steps1} alt="d" />
+            </div>
+            <div className="stepsTextInfo">
+              <p className="infoTitle">Choose destination</p>
+              <p className="info">
+                lorem dwjcbi wicbn kwefbc ocbi ocbnwe oiebc cwuibc iwbcc wbckbi.
+              </p>
+            </div>
+          </div>
+          <div className="stepsTextBar">
+            <div className="stepsTextImage">
+              <img className="Simage" src={steps1} alt="d" />
+            </div>
+            <div className="stepsTextInfo">
+              <p className="infoTitle">Choose destination</p>
+              <p className="info">
+                lorem dwjcbi wicbn kwefbc ocbi ocbnwe oiebc cwuibc iwbcc wbckbi.
+              </p>
+            </div>
+          </div>
+          <div className="stepsTextBar">
+            <div className="stepsTextImage">
+              <img className="Simage" src={steps1} alt="d" />
+            </div>
+            <div className="stepsTextInfo">
+              <p className="infoTitle">Choose destination</p>
+              <p className="info">
+                lorem dwjcbi wicbn kwefbc ocbi ocbnwe oiebc cwuibc iwbcc wbckbi.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <img src={stepsBig} alt="f" />
+        </div>
+      </section>
+      <section>
+        <img className="subsDecor1" src={subsDecor1} alt="d" />
+        <img className="subsDecor2" src={subsDecor2} alt="d" />
+        <div className="subscribe">
+          <p className="subscribeText">
+            Subscribe to get information, latest news and other interesting
+            facts about cobham
+          </p>
+          <div className="subscribeBar">
+            <input className="mail" type="email" placeholder="Your email" />
+            <button className="submit">Subscribe</button>
+            <i class="far fa-envelope mailIcon"></i>
+          </div>
+        </div>
+        <img className="subsDecor3" src={subsDecor3} alt="d" />
       </section>
     </div>
   );
