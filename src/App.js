@@ -13,6 +13,10 @@ import stepsBig from "./stepsBig.png";
 import subsDecor1 from "./subsDecor1.png";
 import subsDecor2 from "./subsDecor2.png";
 import subsDecor3 from "./subsDecor3.png";
+import facebook from "./facebook.png";
+import insta from "./insta.png";
+import play1 from "./play1.png";
+import play2 from "./play2.png";
 
 function App() {
   return (
@@ -20,7 +24,9 @@ function App() {
       <img className="decore" src={decore} alt="s" />
 
       <nav className="navbar">
-        <img className="logo" src={logo} alt="img" />
+        <div>
+          <img className="logo" src={logo} alt="img" />
+        </div>
         <div className="goto_links">
           <p className="links">Destinations</p>
           <p className="links">Hotels</p>
@@ -64,40 +70,56 @@ function App() {
         </div>
         <div className="category4">
           <div className="category2">
-            <div className="category1">
-              <img className="categoryImage" src={img1} alt="f" />
-              <p className="categoryTitle">Calculated Weather</p>
-              <p className="categoryText">
-                Built Wicket longer admire do barton vanity itself do in it.
-              </p>
-              <img className="card" src={card} alt="d" />
+            <div className="cat">
+              <div className="category1">
+                <img className="categoryImage" src={img1} alt="f" />
+                <p className="categoryTitle">Calculated Weather</p>
+                <p className="categoryText">
+                  Built Wicket longer admire do barton vanity itself do in it.
+                </p>
+              </div>
+              <div className="cardDec">
+                <img className="card" src={card} alt="d" />
+              </div>
             </div>
 
-            <div className="category1">
-              <img className="categoryImage" src={img1} alt="f" />
-              <p className="categoryTitle">Calculated Weather</p>
-              <p className="categoryText">
-                Built Wicket longer admire do barton vanity itself do in it.
-              </p>
-              <img className="card" src={card} alt="d" />
+            <div className="cat1">
+              <div className="category1">
+                <img className="categoryImage" src={img1} alt="f" />
+                <p className="categoryTitle">Calculated Weather</p>
+                <p className="categoryText">
+                  Built Wicket longer admire do barton vanity itself do in it.
+                </p>
+              </div>
+              <div className="cardDec1">
+                <img className="card" src={card} alt="d" />
+              </div>
             </div>
           </div>
           <div className="category2">
-            <div className="category1">
-              <img className="categoryImage" src={img1} alt="f" />
-              <p className="categoryTitle">Calculated Weather</p>
-              <p className="categoryText">
-                Built Wicket longer admire do barton vanity itself do in it.
-              </p>
-              <img className="card" src={card} alt="d" />
+            <div className="cat2">
+              <div className="category1">
+                <img className="categoryImage" src={img1} alt="f" />
+                <p className="categoryTitle">Calculated Weather</p>
+                <p className="categoryText">
+                  Built Wicket longer admire do barton vanity itself do in it.
+                </p>
+              </div>
+              <div className="cardDec2">
+                <img className="card" src={card} alt="d" />
+              </div>
             </div>
-            <div className="category1">
-              <img className="categoryImage" src={img1} alt="f" />
-              <p className="categoryTitle">Calculated Weather</p>
-              <p className="categoryText">
-                Built Wicket longer admire do barton vanity itself do in it.
-              </p>
-              <img className="card" src={card} alt="d" />
+            <div className="cat3">
+              <div className="category1">
+                <img className="categoryImage" src={img1} alt="f" />
+                <p className="categoryTitle">Calculated Weather</p>
+                <p className="categoryText">
+                  Built Wicket longer admire do barton vanity itself do in it.
+                </p>
+              </div>
+              <div className="cardDec3">
+                <img className="card" src={card} alt="d" />
+              </div>
             </div>
           </div>
         </div>
@@ -109,7 +131,7 @@ function App() {
         </div>
         <div className="Destination3">
           <div className="Destination2">
-            <div className="Destination1">
+            <div className="Destination1 left">
               <img className="destImg" src={dest1} alt="d" />
               <div className="cardContent">
                 <div className="content1">
@@ -137,7 +159,7 @@ function App() {
             </div>
           </div>
           <div className="Destination2">
-            <div className="Destination1">
+            <div className="Destination1 right">
               <img className="destImg" src={dest1} alt="d" />
               <div className="cardContent">
                 <div className="content1">
@@ -156,8 +178,8 @@ function App() {
       </section>
       <section className="steps">
         <div className="stepsText">
-          <p>Easy and Fast</p>
-          <p>Book Your Next Trip In 3 Easy Steps</p>
+          <p className="text1">Easy and Fast</p>
+          <p className="text2">Book Your Next Trip In 3 Easy Steps</p>
           <div className="stepsTextBar">
             <div className="stepsTextImage">
               <img className="Simage" src={steps1} alt="d" />
@@ -193,10 +215,10 @@ function App() {
           </div>
         </div>
         <div>
-          <img src={stepsBig} alt="f" />
+          <img className="stepsImg" src={stepsBig} alt="f" />
         </div>
       </section>
-      <section>
+      <section className="subsBox">
         <img className="subsDecor1" src={subsDecor1} alt="d" />
         <img className="subsDecor2" src={subsDecor2} alt="d" />
         <div className="subscribe">
@@ -211,6 +233,48 @@ function App() {
           </div>
         </div>
         <img className="subsDecor3" src={subsDecor3} alt="d" />
+      </section>
+      <section className="footer">
+        <div>
+          <p className="logoName">Jadoo.</p>
+          <p className="logoText">
+            Book your trip in minutes, get your full control for longer.
+          </p>
+        </div>
+        <div className="footertext">
+          <div>
+            <p className="boldFooter">Company</p>
+            <p className="normalFooter">About</p>
+            <p className="normalFooter">Careers</p>
+            <p className="normalFooter">Mobile</p>
+          </div>
+          <div>
+            <p className="boldFooter">Company</p>
+            <p className="normalFooter">About</p>
+            <p className="normalFooter">Careers</p>
+            <p className="normalFooter">Mobile</p>
+          </div>
+          <div>
+            <p className="boldFooter">Company</p>
+            <p className="normalFooter">About</p>
+            <p className="normalFooter">Careers</p>
+            <p className="normalFooter">Mobile</p>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img src={facebook} alt="f" />
+            <img src={insta} alt="e/" />
+            <img src={facebook} alt="f" />
+          </div>
+          <div>
+            <p>Discover our app</p>
+          </div>
+          <div>
+            <img src={play1} alt="d" />
+            <img src={play2} alt="d" />
+          </div>
+        </div>
       </section>
     </div>
   );

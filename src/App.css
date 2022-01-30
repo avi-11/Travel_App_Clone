@@ -19,6 +19,8 @@
 
 .navbar {
   display: flex;
+  margin-top: 1rem;
+  margin-bottom: 7rem;
 }
 
 .logo {
@@ -99,7 +101,7 @@
 .lineDec {
   z-index: -1;
   position: absolute;
-  top: 18rem;
+  top: 22rem;
   left: 25%;
 }
 
@@ -154,6 +156,8 @@
 
 .categoryPitch {
   font-family: Volkhov;
+  margin-top: 1rem;
+
   font-style: normal;
   font-weight: bold;
   font-size: 50px;
@@ -170,7 +174,10 @@
 
 .category4 {
   display: flex;
-  margin: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 8rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .category2 {
@@ -182,6 +189,7 @@
   border-radius: 36px;
   margin: 0 1rem;
   transition-duration: 0.5s;
+  background-color: white;
 }
 
 .categoryText {
@@ -267,6 +275,10 @@
   display: flex;
 }
 
+.Destination1 {
+  max-height: 35rem;
+}
+
 .cardDecore {
   height: 15rem;
   position: absolute;
@@ -297,7 +309,7 @@
 
 .subscribe {
   background: #dfd7f942;
-  border-radius: 129px 20px 20px 20px;
+  border-radius: 129px 30px 20px 20px;
   padding: 5rem 5rem;
   margin: 2rem 7rem;
 }
@@ -349,6 +361,10 @@
   z-index: 99;
 }
 
+.subsBox {
+  max-height: 35rem;
+}
+
 .subsDecor1 {
   position: absolute;
   right: 7rem;
@@ -365,4 +381,512 @@
   position: relative;
   bottom: 24.5rem;
   left: 4rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footertext {
+  display: flex;
+}
+
+.logoName {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 66px;
+  /* identical to box height */
+
+  /* 1st */
+
+  color: #181e4b;
+}
+
+.logoText {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 124.5%;
+  /* or 16px */
+
+  /* TEXT CLR */
+
+  color: #5e6282;
+}
+
+.boldFooter {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 124.5%;
+  padding: 1rem;
+  /* or 26px */
+
+  /* black */
+
+  color: #080809;
+}
+
+.normalFooter {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  padding-left: 1rem;
+  font-size: 18px;
+  line-height: 124.5%;
+  /* or 22px */
+
+  /* TEXT CLR */
+
+  color: #5e6282;
+}
+
+.cardDec1 {
+  display: none;
+}
+
+.cardDec2 {
+  display: none;
+}
+
+.cardDec3 {
+  display: none;
+}
+
+.cardDec {
+  display: none;
+}
+
+.cat:hover .cardDec {
+  display: block;
+  position: relative;
+  bottom: 4rem;
+  right: 1rem;
+  z-index: -1;
+}
+
+.cat1:hover .cardDec1 {
+  display: block;
+  position: relative;
+  bottom: 4rem;
+  right: 1rem;
+  z-index: -1;
+}
+
+.cat2:hover .cardDec2 {
+  display: block;
+  position: relative;
+  bottom: 4rem;
+  right: 1rem;
+  z-index: -1;
+}
+
+.cat3:hover .cardDec3 {
+  display: block;
+  position: relative;
+  bottom: 4rem;
+  right: 1rem;
+  z-index: -1;
+}
+
+.text1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  /* TEXT CLR */
+
+  color: #5e6282;
+}
+
+.text2 {
+  font-family: Volkhov;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 64px;
+  text-transform: capitalize;
+  margin: 1rem 0;
+
+  /* 3rd */
+
+  color: #14183e;
+}
+
+.infoTitle {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 124.5%;
+  /* identical to box height, or 20px */
+
+  /* TEXT CLR */
+
+  color: #5e6282;
+}
+
+.info {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 124.5%;
+  /* or 20px */
+
+  /* TEXT CLR */
+
+  color: #5e6282;
+}
+
+.left {
+  position: relative;
+  left: 8rem;
+}
+.right {
+  position: relative;
+  right: 8rem;
+}
+
+@media (min-width: 1100px) and (max-width: 1200px) {
+  .category1 {
+    padding: 3rem 0rem;
+  }
+  .text2 {
+    font-size: 41px;
+  }
+  .stepsImg {
+    width: 34rem;
+  }
+  .subscribe {
+    padding: 3rem 5rem;
+  }
+}
+
+@media (min-width: 967px) and (max-width: 1100px) {
+  .head2 {
+    font-size: 54px;
+    line-height: 60px;
+  }
+  .lineDec {
+    top: 20.5rem;
+  }
+  .image {
+    right: 50%;
+  }
+  .head3 {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .category1 {
+    padding: 1rem 0;
+  }
+  .destImg {
+    width: 25rem;
+  }
+  .cardContent {
+    bottom: 18rem;
+    left: 4rem;
+    max-width: 16.9rem;
+  }
+  .left {
+    left: 6rem;
+  }
+  .right {
+    right: 6rem;
+  }
+  .cardDecore {
+    height: 12rem;
+    left: 15rem;
+  }
+  .stepsImg {
+    width: 25rem;
+  }
+  .stepsTextBar {
+    margin: 1rem 0;
+  }
+  .text2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .mail {
+    padding: 1.5rem 4rem;
+    min-width: 196px;
+  }
+  .mailIcon {
+    right: 30rem;
+  }
+  .subscribe {
+    padding: 3rem 5rem;
+    margin: 2rem 4rem;
+  }
+  .subsDecor1 {
+    right: 4rem;
+  }
+  .subsDecor2 {
+    right: 4rem;
+  }
+  .subsBox {
+    max-height: 30rem;
+    margin-top: 6rem;
+  }
+  .boldFooter {
+    padding: 1rem 0.5rem;
+  }
+  .normalFooter {
+    padding-left: 0.5rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 967px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .logoBox {
+    display: flex;
+    justify-content: center;
+  }
+  .goto_links {
+    top: 0;
+    left: 0;
+    font-size: 20px;
+    margin: 3rem 0;
+  }
+  .section1 {
+    flex-direction: column-reverse;
+  }
+  .image {
+    right: 0;
+    width: 75%;
+  }
+  .head1 {
+    text-align: center;
+  }
+  .head2 {
+    line-height: normal;
+    font-size: 48px;
+    text-align: center;
+    margin-right: 0;
+  }
+  .head3 {
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    padding-right: 0;
+  }
+  .decButtons {
+    left: 5rem;
+  }
+  .category4 {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  .category2 {
+    margin-bottom: 3rem;
+  }
+  .category1 {
+    padding: 1rem 0;
+  }
+  .Destination3 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Destination2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .right {
+    right: 0;
+  }
+  .left {
+    left: 0;
+  }
+  .steps {
+    flex-direction: column-reverse;
+  }
+  .stepsText {
+    padding: 0 7rem;
+  }
+  .subsDecor2,
+  .subsDecor3 {
+    display: none;
+  }
+  .subscribe {
+    padding: 5rem 4rem;
+    margin: 2rem 4rem;
+  }
+  .subscribeText {
+    font-size: 20px;
+    line-height: 20px;
+    margin: 2rem 1rem;
+  }
+  .subscribeBar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .mail {
+    padding: 1rem 3rem;
+    margin: 2rem 0rem;
+  }
+  .submit {
+    max-width: 10rem;
+  }
+  .mailIcon {
+    display: none;
+  }
+  .subsDecor1 {
+    right: 4rem;
+  }
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .lineDec {
+    display: none;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 576px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .logoBox {
+    display: flex;
+    justify-content: center;
+  }
+  .goto_links {
+    top: 0;
+    left: 0;
+    font-size: 12px;
+    margin: 2rem 0;
+  }
+  .section1 {
+    flex-direction: column-reverse;
+  }
+  .image {
+    right: 0;
+    bottom: 4rem;
+    width: 75%;
+  }
+  .head1 {
+    text-align: center;
+    font-size: 12px;
+  }
+  .head2 {
+    line-height: normal;
+    font-size: 32px;
+    text-align: center;
+    margin-right: 0;
+  }
+  .head3 {
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    padding-right: 0;
+  }
+  .decButtons {
+    left: 1rem;
+    margin: 2rem 0;
+  }
+  .findButton {
+    font-size: 12px;
+    padding: 10px 12px;
+  }
+  .play {
+    font-size: 13px;
+  }
+  .categoryPitch {
+    font-size: 32px;
+  }
+  .category4 {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  .category2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .category1 {
+    padding: 1rem 0;
+  }
+  .cat {
+    margin-bottom: 3rem;
+  }
+  .Destination3 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Destination2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .right {
+    right: 0;
+  }
+  .left {
+    left: 0;
+  }
+  .cardDecore {
+    display: none;
+  }
+  .stepsImg {
+    width: 24rem;
+  }
+  .text2 {
+    line-height: normal;
+    font-size: 24px;
+  }
+  .steps {
+    flex-direction: column-reverse;
+  }
+  .stepsText {
+    padding: 0 4rem;
+  }
+  .subsDecor2,
+  .subsDecor3 {
+    display: none;
+  }
+  .subscribe {
+    padding: 2rem 2rem;
+    margin: 2rem 1rem;
+  }
+  .subscribeText {
+    font-size: 20px;
+    line-height: 20px;
+    margin: 3rem 1rem;
+  }
+  .subscribeBar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .mail {
+    padding: 1rem 1rem;
+    margin: 2rem 0rem;
+  }
+  .submit {
+    max-width: 10rem;
+    margin-left: 0;
+    margin-bottom: 2rem;
+  }
+  .mailIcon {
+    display: none;
+  }
+  .subsDecor1 {
+    right: 1rem;
+  }
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .lineDec {
+    display: none;
+  }
 }
