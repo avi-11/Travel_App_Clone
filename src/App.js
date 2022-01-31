@@ -24,7 +24,7 @@ function App() {
       <img className="decore" src={decore} alt="s" />
 
       <nav className="navbar">
-        <div>
+        <div className="logoDiv">
           <img className="logo" src={logo} alt="img" />
         </div>
         <div className="goto_links">
@@ -33,10 +33,10 @@ function App() {
           <p className="links">Flights</p>
           <p className="links">Bookings</p>
           <p className="links">Login</p>
-          <p className="links">Sign up</p>
+          <p className="links sign">Sign up</p>
 
           <select className="select_languages links">
-            <option className="select_options">EN</option>
+            <option className="select_options links">EN</option>
             <option className="select_options">HN</option>
           </select>
         </div>
