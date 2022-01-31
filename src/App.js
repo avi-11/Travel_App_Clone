@@ -1,27 +1,29 @@
 import "./App.css";
-import logo from "./logo.png";
-import decore from "./Decore.png";
-import image from "./Image.png";
-import dec from "./dec.png";
-import play from "./play.png";
-import img1 from "./img1.png";
-import card from "./card.png";
-import dest1 from "./dest1.png";
-import cardDecore from "./cardDecore.png";
-import steps1 from "./steps1.png";
-import stepsBig from "./stepsBig.png";
-import subsDecor1 from "./subsDecor1.png";
-import subsDecor2 from "./subsDecor2.png";
-import subsDecor3 from "./subsDecor3.png";
-import facebook from "./facebook.png";
-import insta from "./insta.png";
-import play1 from "./play1.png";
-import play2 from "./play2.png";
+import logo from "./img/logo.png";
+import decore from "./img/Decore.png";
+import image from "./img/Image.png";
+import dec from "./img/dec.png";
+import play from "./img/play.png";
+import img1 from "./img/img1.png";
+import card from "./img/card.png";
+import dest1 from "./img/dest1.png";
+import cardDecore from "./img/cardDecore.png";
+import steps1 from "./img/steps1.png";
+import stepsBig from "./img/stepsBig.png";
+import subsDecor1 from "./img/subsDecor1.png";
+import subsDecor2 from "./img/subsDecor2.png";
+import subsDecor3 from "./img/subsDecor3.png";
+import facebook from "./img/facebook.png";
+import insta from "./img/insta.png";
+import play1 from "./img/play1.png";
+import play2 from "./img/play2.png";
 import card2 from "./img/card2.png";
 import card3 from "./img/card3.png";
 import card4 from "./img/card4.png";
 import dest2 from "./img/dest2.jpg";
 import dest3 from "./img/dest3.png";
+import steps2 from "./img/steps2.png";
+import steps3 from "./img/steps3.png";
 
 function App() {
   return (
@@ -91,7 +93,7 @@ function App() {
             <div className="cat1">
               <div className="category1">
                 <img className="categoryImage" src={card4} alt="f" />
-                <p className="categoryTitle">Calculated Weather</p>
+                <p className="categoryTitle">Best Flights</p>
                 <p className="categoryText">
                   Built Wicket longer admire do barton vanity itself do in it.
                 </p>
@@ -105,7 +107,7 @@ function App() {
             <div className="cat2">
               <div className="category1">
                 <img className="categoryImage" src={card3} alt="f" />
-                <p className="categoryTitle">Calculated Weather</p>
+                <p className="categoryTitle">Local Events</p>
                 <p className="categoryText">
                   Built Wicket longer admire do barton vanity itself do in it.
                 </p>
@@ -117,7 +119,7 @@ function App() {
             <div className="cat3">
               <div className="category1">
                 <img className="categoryImage" src={card2} alt="f" />
-                <p className="categoryTitle">Calculated Weather</p>
+                <p className="categoryTitle">Customization</p>
                 <p className="categoryText">
                   Built Wicket longer admire do barton vanity itself do in it.
                 </p>
@@ -145,7 +147,7 @@ function App() {
                 </div>
                 <div className="content2">
                   <i class="fas fa-location-arrow location"></i>
-                  <p>12 days trip</p>
+                  <p>10 days trip</p>
                 </div>
               </div>
             </div>
@@ -153,7 +155,7 @@ function App() {
               <img className="destImg" src={dest2} alt="d" />
               <div className="cardContent">
                 <div className="content1">
-                  <p>Rome,Italy </p>
+                  <p>London, UK</p>
                   <p>$5.42K</p>
                 </div>
                 <div className="content2">
@@ -168,12 +170,12 @@ function App() {
               <img className="destImg" src={dest3} alt="d" />
               <div className="cardContent">
                 <div className="content1">
-                  <p>Rome,Italy </p>
+                  <p>Full Europe </p>
                   <p>$5.42K</p>
                 </div>
                 <div className="content2">
                   <i class="fas fa-location-arrow location"></i>
-                  <p>12 days trip</p>
+                  <p>28 days trip</p>
                 </div>
                 <img className="cardDecore" src={cardDecore} alt="d" />
               </div>
@@ -198,10 +200,10 @@ function App() {
           </div>
           <div className="stepsTextBar">
             <div className="stepsTextImage">
-              <img className="Simage" src={steps1} alt="d" />
+              <img className="Simage" src={steps2} alt="d" />
             </div>
             <div className="stepsTextInfo">
-              <p className="infoTitle">Choose destination</p>
+              <p className="infoTitle">Make Payment</p>
               <p className="info">
                 lorem dwjcbi wicbn kwefbc ocbi ocbnwe oiebc cwuibc iwbcc wbckbi.
               </p>
@@ -209,10 +211,10 @@ function App() {
           </div>
           <div className="stepsTextBar">
             <div className="stepsTextImage">
-              <img className="Simage" src={steps1} alt="d" />
+              <img className="Simage" src={steps3} alt="d" />
             </div>
             <div className="stepsTextInfo">
-              <p className="infoTitle">Choose destination</p>
+              <p className="infoTitle">Reach Airport on selected Date</p>
               <p className="info">
                 lorem dwjcbi wicbn kwefbc ocbi ocbnwe oiebc cwuibc iwbcc wbckbi.
               </p>
@@ -239,7 +241,7 @@ function App() {
         </div>
         <img className="subsDecor3" src={subsDecor3} alt="d" />
       </section>
-      <section className="footer">
+      <footer className="footer">
         <div>
           <p className="logoName">Jadoo.</p>
           <p className="logoText">
@@ -254,16 +256,16 @@ function App() {
             <p className="normalFooter">Mobile</p>
           </div>
           <div>
-            <p className="boldFooter">Company</p>
-            <p className="normalFooter">About</p>
-            <p className="normalFooter">Careers</p>
-            <p className="normalFooter">Mobile</p>
+            <p className="boldFooter">Contact</p>
+            <p className="normalFooter">Help/FAQ</p>
+            <p className="normalFooter">Press</p>
+            <p className="normalFooter">Affiliates</p>
           </div>
           <div>
-            <p className="boldFooter">Company</p>
-            <p className="normalFooter">About</p>
-            <p className="normalFooter">Careers</p>
-            <p className="normalFooter">Mobile</p>
+            <p className="boldFooter">More</p>
+            <p className="normalFooter">Airlinefess</p>
+            <p className="normalFooter">Airline</p>
+            <p className="normalFooter">Low fair tips</p>
           </div>
         </div>
         <div>
@@ -280,7 +282,8 @@ function App() {
             <img src={play2} alt="d" />
           </div>
         </div>
-      </section>
+      </footer>
+      <p className="reserved">All Rights Reserved @jadoo.co </p>
     </div>
   );
 }

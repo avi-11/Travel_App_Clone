@@ -275,6 +275,21 @@
   margin: 1rem;
 }
 
+.reserved {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 124.5%;
+  /* or 17px */
+
+  /* TEXT CLR */
+
+  color: #5e6282;
+  text-align: center;
+  margin: 5rem;
+}
+
 .Destination3 {
   display: flex;
   justify-content: center;
@@ -435,7 +450,7 @@
   font-weight: bold;
   font-size: 21px;
   line-height: 124.5%;
-  padding: 1rem;
+  padding: 1rem 2rem;
   /* or 26px */
 
   /* black */
@@ -447,7 +462,7 @@
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  padding-left: 1rem;
+  padding-left: 2rem;
   font-size: 18px;
   line-height: 124.5%;
   /* or 22px */
@@ -832,6 +847,7 @@
   .select_languages {
     top: 1rem;
     font-size: 12px;
+    background-color: white;
   }
   .logoDiv {
     display: flex;
@@ -886,6 +902,10 @@
     display: flex;
     justify-content: center;
   }
+  .decore {
+    width: 40%;
+  }
+
   .play {
     font-size: 13px;
   }
