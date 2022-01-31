@@ -421,7 +421,7 @@
   font-weight: 500;
   font-size: 13px;
   line-height: 124.5%;
-  margin: 2rem 0;
+
   /* or 16px */
 
   /* TEXT CLR */
@@ -567,6 +567,11 @@
   right: 8rem;
 }
 
+.cat2,
+.cat3 {
+  padding-top: 2rem;
+}
+
 @media (min-width: 1100px) and (max-width: 1200px) {
   .category1 {
     padding: 3rem 0rem;
@@ -668,6 +673,9 @@
   .navbar {
     flex-direction: column;
   }
+  .footertext {
+    margin: 2rem 0;
+  }
   .logoBox {
     display: flex;
     justify-content: center;
@@ -683,6 +691,7 @@
     justify-content: center;
     margin: 2rem 0;
   }
+
   .cardContent {
     bottom: 19.8rem;
   }
@@ -793,11 +802,28 @@
   .logo {
     margin-left: 0;
   }
+  .cat {
+    padding-top: 2rem;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 576px) {
   .navbar {
     flex-direction: column;
+  }
+  .cat {
+    padding-top: 2rem;
+  }
+
+  .logo {
+    margin-left: 0;
+  }
+  .footertext {
+    margin: 2rem 0;
+  }
+  .sign {
+    padding: 6px 9px;
+    bottom: 0.5rem;
   }
   .logoBox {
     display: flex;
@@ -820,6 +846,12 @@
   }
   .section1 {
     flex-direction: column-reverse;
+  }
+  .cardContent {
+    padding: 1.2rem 0;
+  }
+  .logo {
+    margin-left: 0;
   }
   .image {
     right: 0;

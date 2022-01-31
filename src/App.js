@@ -17,6 +17,11 @@ import facebook from "./facebook.png";
 import insta from "./insta.png";
 import play1 from "./play1.png";
 import play2 from "./play2.png";
+import card2 from "./img/card2.png";
+import card3 from "./img/card3.png";
+import card4 from "./img/card4.png";
+import dest2 from "./img/dest2.jpg";
+import dest3 from "./img/dest3.png";
 
 function App() {
   return (
@@ -85,7 +90,7 @@ function App() {
 
             <div className="cat1">
               <div className="category1">
-                <img className="categoryImage" src={img1} alt="f" />
+                <img className="categoryImage" src={card4} alt="f" />
                 <p className="categoryTitle">Calculated Weather</p>
                 <p className="categoryText">
                   Built Wicket longer admire do barton vanity itself do in it.
@@ -99,7 +104,7 @@ function App() {
           <div className="category2">
             <div className="cat2">
               <div className="category1">
-                <img className="categoryImage" src={img1} alt="f" />
+                <img className="categoryImage" src={card3} alt="f" />
                 <p className="categoryTitle">Calculated Weather</p>
                 <p className="categoryText">
                   Built Wicket longer admire do barton vanity itself do in it.
@@ -111,7 +116,7 @@ function App() {
             </div>
             <div className="cat3">
               <div className="category1">
-                <img className="categoryImage" src={img1} alt="f" />
+                <img className="categoryImage" src={card2} alt="f" />
                 <p className="categoryTitle">Calculated Weather</p>
                 <p className="categoryText">
                   Built Wicket longer admire do barton vanity itself do in it.
@@ -145,7 +150,7 @@ function App() {
               </div>
             </div>
             <div className="Destination1">
-              <img className="destImg" src={dest1} alt="d" />
+              <img className="destImg" src={dest2} alt="d" />
               <div className="cardContent">
                 <div className="content1">
                   <p>Rome,Italy </p>
@@ -160,7 +165,7 @@ function App() {
           </div>
           <div className="Destination2">
             <div className="Destination1 right">
-              <img className="destImg" src={dest1} alt="d" />
+              <img className="destImg" src={dest3} alt="d" />
               <div className="cardContent">
                 <div className="content1">
                   <p>Rome,Italy </p>
