@@ -292,6 +292,7 @@
 
 .Destination3 {
   display: flex;
+  overflow: hidden;
   justify-content: center;
 }
 
