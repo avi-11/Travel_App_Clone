@@ -998,4 +998,13 @@
   .lineDec {
     display: none;
   }
+  .boldFooter {
+    padding: 1rem 1rem;
+  }
+  .normalFooter {
+    padding-left: 1rem;
+  }
+  .reserved {
+    margin: 4rem 0;
+  }
 }
